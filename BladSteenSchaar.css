@@ -1,0 +1,47 @@
+body{
+    font-family: arial;
+}
+
+.button{
+    background-color: white;
+    border-color: white;
+}
+
+.continue{
+    background-color: lightgray;
+    border-color: white;
+    vertical-align: middle;
+}
+
+.Tablé{
+    margin-top: 10%;
+    float: left;
+}
+
+.Scoreee{
+    float: top;
+    width: 75%;
+    height: 25%;
+    margin: auto;
+    margin-top: 1%;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.ScoreeeTD{
+    width: 25%;
+}
+
+.keuze{
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+
+.keuzepc{
+    margin-right: 15%;
+    margin-top: 5%;
+    float: right;
+}
