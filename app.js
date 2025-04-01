@@ -6,29 +6,29 @@ scorePC = 0;
 
 function Blad(){
     gebruiker = 0;
-    document.getElementById('Keuze').src='Images/Blad.png';
+    document.getElementById('Keuze').src='Blad.png';
     keuzePc();
 }
 
 function Steen(){
     gebruiker = 1;
-    document.getElementById('Keuze').src='Images/Steen.png';
+    document.getElementById('Keuze').src='Steen.png';
     keuzePc();
 }
 
 function Schaar(){
     gebruiker = 2;
-    document.getElementById('Keuze').src='Images/Schaar.png';
+    document.getElementById('Keuze').src='Schaar.png';
     keuzePc();
 }
 
 function keuzePc(){
     if (BSS == 0){
-        document.getElementById('Keuzepc').src='Images/Blad.png';
+        document.getElementById('Keuzepc').src='Blad.png';
     } else if (BSS == 1){
-        document.getElementById('Keuzepc').src='Images/Steen.png';
+        document.getElementById('Keuzepc').src='Steen.png';
     } else if (BSS == 2){
-        document.getElementById('Keuzepc').src='Images/Schaar.png';
+        document.getElementById('Keuzepc').src='Schaar.png';
     }
     Check();
 }
